@@ -1,0 +1,306 @@
+        /* 全局样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #0df4fcb4;
+            overflow-x: hidden;
+            background-image: url(https://raw.githubusercontent.com/Xiaowameijiao/huoshiyinyuebizhi4.github.io/main/huoshiyinyuebizhi5.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            cursor: url('https://i.ibb.co/27ktrWvb/icon11.png'), auto;
+        }
+
+        a, button, input, select, textarea, .music-button, label, #audio-controls button {
+            cursor: url('https://i.ibb.co/27ktrWvb/icon11.png'), auto !important;
+        }
+
+        a:hover, a:focus, button:hover, button:focus, input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus, .music-button:hover, .music-button:focus, label:hover, label:focus, #audio-controls button:hover, #audio-controls button:focus {
+            cursor: url('https://i.ibb.co/27ktrWvb/icon11.png'), auto !important;
+        }
+
+
+        /* 背景渐变效果 */
+        .bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(3, 188, 229, 0.1), rgba(3, 188, 229, 0.05));
+            z-index: -1;
+        }
+
+        /* 导航栏 */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            background-color: #0a0a0a65;
+        }
+
+        nav.scrolled {
+            background-color: rgba(0, 0, 0, 0.403);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0df4fcb4;
+        }
+
+        .menu {
+            display: flex;
+            gap: 30px;
+        }
+
+        .menu-item {
+            color: #0df4fcb4;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .menu-item:hover {
+            color: #21e5eca2;
+            text-shadow: 0 0 10px rgba(3, 188, 229, 0.5);
+        }
+
+        .menu-item::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #03bce5bf;
+            transition: width 0.3s ease;
+        }
+
+        .menu-item:hover::after {
+            width: 100%;
+        }
+
+        /* 主要内容 */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #0df4fcb4;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s forwards 0.5s;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+            margin-bottom: 40px;
+            max-width: 600px;
+            color: #0df4fcb4;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s forwards 0.8s;
+        }
+
+        /* 按钮样式 */
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: transparent;
+            color: #0df4fcb4;
+            border: 2px solid #03bce5bf;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s forwards 1.1s;
+        }
+
+        .btn:hover {
+            background-color: rgba(3, 188, 229, 0.1);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(3, 188, 229, 0.2);
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: rgba(3, 188, 229, 0.2);
+            transition: width 0.3s ease;
+            z-index: -1;
+        }
+
+        .btn:hover::before {
+            width: 100%;
+        }
+
+        /* 动画效果 */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 下载按钮 */
+        .download-section {
+            padding: 100px 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .download-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #03bce5bf;
+        }
+
+        .download-subtitle {
+            font-size: 18px;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #03bce5bf;
+        }
+
+        /* 装饰元素 */
+        .decoration {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #03bce5bf;
+            border-radius: 50%;
+            animation: float 5s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+            25% {
+                transform: translateY(-20px) translateX(10px);
+            }
+            50% {
+                transform: translateY(0) translateX(20px);
+            }
+            75% {
+                transform: translateY(20px) translateX(10px);
+            }
+            100% {
+                transform: translateY(0) translateX(0);
+            }
+        }
+
+        /* 功能部分 */
+        .features-section {
+            padding: 100px 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: solid 2px #03c7e582;
+            border-radius: 10px;
+        }
+
+        .features-title {
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #03bce5bf;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(3, 188, 229, 0.2);
+        }
+
+        .feature-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #03bce5bf;
+        }
+
+        .feature-description {
+            font-size: 16px;
+            color: #03bce5bf;
+        }
+
+        /* 关于我们部分 */
+        .about-section {
+            padding: 100px 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.9);
+            border: solid 2px #03c7e55c;
+        }
+
+        .about-title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #0cf0f0b0;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
