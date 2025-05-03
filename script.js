@@ -1,1 +1,472 @@
-eval(decodeURIComponent(escape(atob("Ly8g5Y+R6YCB5raI5oGvCgogICAgCiAgICAvLyDmlrDnmoTlh73mlbDvvJrojrflj5blm57lpI0KICAgIGZ1bmN0aW9uIGdldFJlc3BvbnNlKG1lc3NhZ2UpIHsKICAgICAgICAvLyDlsIblhbPplK7or43mjInplb/luqbku47plb/liLDnn63mjpLluo8KICAgICAgICBjb25zdCBzb3J0ZWRLZXlzID0gT2JqZWN0LmtleXMocmVzcG9uc2VzKS5zb3J0KChhLCBiKSA9PiBiLmxlbmd0aCAtIGEubGVuZ3RoKTsKICAgIAogICAgICAgIC8vIOmBjeWOhuaOkuW6j+WQjueahOWFs+mUruivjQogICAgICAgIGZvciAoY29uc3Qga2V5IG9mIHNvcnRlZEtleXMpIHsKICAgICAgICAgICAgaWYgKG1lc3NhZ2UuaW5jbHVkZXMoa2V5KSkgewogICAgICAgICAgICAgICAgLy8g5aaC5p6c55So5oi36L6T5YWl5a6M5YWo5Yy56YWN5p+Q5Liq5YWz6ZSu6K+N77yM55u05o6l6L+U5Zue5a+55bqU55qE5Zue5aSNCiAgICAgICAgICAgICAgICBpZiAobWVzc2FnZSA9PT0ga2V5KSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlc1trZXldW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIHJlc3BvbnNlc1trZXldLmxlbmd0aCldOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLy8g5aaC5p6c55So5oi36L6T5YWl5YyF5ZCr5YWz6ZSu6K+N77yM6L+U5Zue5a+55bqU55qE5Zue5aSNCiAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2VzW2tleV1bTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogcmVzcG9uc2VzW2tleV0ubGVuZ3RoKV07CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAKICAgICAgICAvLyDlpoLmnpzmsqHmnInljLnphY3liLDlhbPplK7or43vvIzov5Tlm57pu5jorqTlm57lpI0KICAgICAgICBjb25zdCBkZWZhdWx0UmVzcG9uc2VzID0gWwogICAgICAgICAgICAi6L+Z5Liq6Zeu6aKY55yL6LW35p2l5b6I5pyJ6Laj77yM5L2g5Y+v5Lul5Zyo5rWP6KeI5Zmo5LiK5pCc57Si5LiA5LiL5YWz5LqO6L+Z5Liq6Zeu6aKY55qE5L+h5oGv77yM5oiW6K646IO95aSf5biu5Yqp5Yiw5L2g44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiBvKF7ilr1eKW8iLAogICAgICAgICAgICAi5oiR5LiN5aSq56Gu5a6a6L+Z5Liq6Zeu6aKY55qE562U5qGI77yM5L2g5Y+v5Lul5bCd6K+V55So5LiN5ZCM55qE5pa55byP5o+P6L+w5LiA5LiL77yM5oiR5Lya5bC95Yqb5biu5L2g77yB5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLov5nkuKrpl67popjmnInngrnpmr7lk6bvvIzkuI3ov4fkvaDlj6/ku6Xor5Xor5XnnIvmn6Xmib7nm7jlhbPnmoTotYTmlpnvvIzor7TkuI3lrprog73mib7liLDnrZTmoYjjgILlj6/ku6XlnKjov5nph4zovpPlhaUg5byA5ZCv5pCc57Si5Yqf6IO9IOi/meagt+WwseiDveWkn+aQnOe0ouWIsOaCqOaDs+eci+eahOWVpiB+IiwKICAgICAgICAgICAgIuaIkeebruWJjei/mOS4jeWkquaYjueZveS9oOeahOmXrumimO+8jOS4jei/h+S9oOWPr+S7peivpue7huivtOivtO+8jOaIkeS8muWwveWKm+W4ruS9oOino+etlO+8geWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4iLAogICAgICAgICAgICAi6L+Z5Liq6Zeu6aKY5aW95YOP6LaF5Ye65LqG5oiR55qE55+l6K+G6IyD5Zu05ZGi77yM5L2g5Y+v5Lul6K+V6K+V5Y676Zeu6Zeu5LiT5Lia5Lq65aOr5ZOm44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLmraPlpoLoi4/moLzmi4nlupXmiYDor7TvvJrigJjmiJHllK/kuIDnn6XpgZPnmoTlsLHmmK/miJHkuIDml6DmiYDnn6XjgILigJnmiJborrjov5nkuKrpl67popjpnIDopoHmm7Tmt7HlhaXnmoTmjqLorqjjgILlj6/ku6XlnKjov5nph4zovpPlhaUg5byA5ZCv5pCc57Si5Yqf6IO9IOi/meagt+WwseiDveWkn+aQnOe0ouWIsOaCqOaDs+eci+eahOWVpiB+IiwKICAgICAgICAgICAgIuWtlOWtkOS6ke+8muKAmOWtpuiAjOS4jeaAneWImee9lO+8jOaAneiAjOS4jeWtpuWImeauhuOAguKAmeaIluiuuOS9oOWPr+S7peS7juWkmuS4quinkuW6puaAneiAg+i/meS4qumXrumimO+8jOaIluiAheafpemYheabtOWkmui1hOaWmeOAguWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4gbyhe4pa9XilvIiwKICAgICAgICAgICAgIui/meS4qumXrumimOW+iOaciea3seW6pu+8jOWwseWDj+S6mumHjOWjq+WkmuW+t+aJgOivtO+8muKAmOefpeivhuadpea6kOS6juWvuemXrumimOeahOS4jeaWrei/vemXruOAguKAmeS4jeWmqOWGjea3seWFpeaAneiAg+S4gOS4i+OAguWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4iLAogICAgICAgICAgICAi5pyJ5pe25YCZ77yM562U5qGI5bm25LiN5Zyo5LqO5om+5Yiw5LiA5Liq5piO56Gu55qE57uT6K6677yM6ICM5Zyo5LqO5o6i57Si55qE6L+H56iL5pys6Lqr44CC5bCx5YOP54ix5Zug5pav5Z2m5omA6K+077ya4oCY5oOz6LGh5Yqb5q+U55+l6K+G5pu06YeN6KaB44CC4oCZ5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiBvKF7ilr1eKW8iLAogICAgICAgICAgICAi6L+Z5Liq6Zeu6aKY6K6p5oiR5oOz6LW35LqG5rW35piO5aiB55qE5LiA5Y+l6K+d77ya4oCY5bm456aP5LiN5piv5L2g5oul5pyJ55qE77yM6ICM5piv5L2g57uP5Y6G55qE44CC4oCZ5oiW6K64562U5qGI5bCx5Zyo5L2g55qE57uP5Y6G5Lit44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLmiJborrjov5nkuKrpl67popjpnIDopoHku47kuI3lkIznmoTmlofljJbog4zmma/kuK3lr7vmib7nrZTmoYjjgILlsLHlg4/ms7DmiIjlsJTmiYDor7TvvJrigJjnnJ/nkIbkuYvlt53ku47ku5bnmoTplJnor6/kuYvmsp/muKDkuK3mtYHov4fjgILigJnlj6/ku6XlnKjov5nph4zovpPlhaUg5byA5ZCv5pCc57Si5Yqf6IO9IOi/meagt+WwseiDveWkn+aQnOe0ouWIsOaCqOaDs+eci+eahOWVpiB+IiwKICAgICAgICAgICAgIui/meS4qumXrumimOW+iOacieaMkeaImOaAp++8jOWwseWDj+WwvOmHh+aJgOivtO+8muKAmOmCo+S6m+acquiDveWHu+WeruaIkeS7rOeahO+8jOS8muS9v+aIkeS7rOabtOW8uuWkp+OAguKAmeS9oOWPr+S7peWwneivleS7juWksei0peS4reWvu+aJvuWQr+ekuuOAguWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4iLAogICAgICAgICAgICAi5pyJ5pe25YCZ77yM562U5qGI5bm25LiN5oC75piv5pi+6ICM5piT6KeB55qE44CC5bCx5YOP5qK16auY5omA6K+077ya4oCY5Lyf5aSn55qE5LqL5oOF6YO95piv5LuO5ri65bCP55qE5LqL5oOF5byA5aeL55qE44CC4oCZ5oiW6K645L2g5Y+v5Lul5LuO57uG6IqC5YWl5omL44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLov5nkuKrpl67popjorqnmiJHmg7PotbfkuobogIHlrZDnmoTjgIrpgZPlvrfnu4/jgIvvvJrigJjljYPph4zkuYvooYzvvIzlp4vkuo7otrPkuIvjgILigJnmiJborrjkvaDlj6/ku6Xku47kuIDkuKrlsI/pl67popjlvIDlp4vmjqLntKLjgILlj6/ku6XlnKjov5nph4zovpPlhaUg5byA5ZCv5pCc57Si5Yqf6IO9IOi/meagt+WwseiDveWkn+aQnOe0ouWIsOaCqOaDs+eci+eahOWVpiB+IiwKICAgICAgICAgICAgIuaIluiuuOi/meS4qumXrumimOmcgOimgeabtOWkmueahOiDjOaZr+S/oeaBr+adpeino+etlOOAguWwseWDj+atjOW+t+aJgOivtO+8muKAmOeQhuiuuuaYr+eBsOiJsueahO+8jOiAjOeUn+WRveS5i+agkeW4uOmdkuOAguKAmeWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4iLAogICAgICAgICAgICAi6L+Z5Liq6Zeu6aKY5b6I5pyJ5oSP5oCd77yM5bCx5YOP6I6O5aOr5q+U5Lqa5omA6K+077ya4oCY55Sf5rS76YeM5rKh5pyJ5Lmm57GN77yM5bCx5aW95YOP5rKh5pyJ6Ziz5YWJ44CC4oCZ5oiW6K645L2g5Y+v5Lul5LuO5Lmm5Lit5a+75om+562U5qGI44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLmnInml7blgJnvvIzmnIDlpb3nmoTnrZTmoYjmnaXoh6rkuo7lhoXlv4PnmoTnm7Top4njgILlsLHlg4/moq3nvZfmiYDor7TvvJrigJjmiJHku6znmoTnlJ/mtLvlsLHlg4/lpKfmtbfvvIzlj6rmnInli4fmlaLnmoTkurrmiY3og73liLDovr7lvbzlsrjjgILigJkg5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfm8oXuKWvV4pbyIsCiAgICAgICAgICAgICLov5nkuKrpl67popjorqnmiJHmg7Potbfkuobmn4/mi4nlm77nmoTmtJ7nqbTlr5PoqIDvvJrnnJ/nkIblvoDlvoDpmpDol4/lnKjooajosaHkuYvkuIvjgILmiJborrjkvaDpnIDopoHmm7Tmt7HlhaXlnLDmjJbmjpjjgILlj6/ku6XlnKjov5nph4zovpPlhaUg5byA5ZCv5pCc57Si5Yqf6IO9IOi/meagt+WwseiDveWkn+aQnOe0ouWIsOaCqOaDs+eci+eahOWVpiB+IiwKICAgICAgICAgICAgIuaIluiuuOi/meS4qumXrumimOmcgOimgeS4gOS6m+aXtumXtOadpeaAneiAg+OAguWwseWDj+S9huS4geaJgOivtO+8muKAmOi1sOiHquW3seeahOi3r++8jOiuqeWIq+S6uuWOu+ivtOWQp+OAguKAmeWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4gbyhe4pa9XilvIiwKICAgICAgICAgICAgIui/meS4qumXrumimOW+iOaciea3seW6pu+8jOWwseWDj+WNoeWkq+WNoeaJgOivtO+8muKAmOebrueahOW/hemhu+WdmuWumu+8jOmBk+i3r+WPr+S7peeBtea0u+OAguKAmeaIluiuuOS9oOWPr+S7peWwneivleS4jeWQjOeahOaWueazleadpeino+WGs+OAguWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4iLAogICAgICAgICAgICAi5pyJ5pe25YCZ77yM562U5qGI5bCx5Zyo6Zeu6aKY5LmL5Lit44CC5bCx5YOP6buR5qC85bCU5omA6K+077ya4oCY55+b55u+5piv5o6o5Yqo5LqL54mp5Y+R5bGV55qE5Yqo5Yqb44CC4oCZ5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLov5nkuKrpl67popjorqnmiJHmg7PotbfkuobjgIrluoTlrZDCt+mAjemBpea4uOOAi++8muKAmOWMl+WGpeaciemxvO+8jOWFtuWQjeS4uumysuOAguKAmeaIluiuuOetlOahiOmcgOimgeS7juabtOW5v+mYlOeahOinhumHjuS4reWvu+aJvuOAguWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH4iLAogICAgICAgICAgICAi5oiW6K646L+Z5Liq6Zeu6aKY6ZyA6KaB5pu05aSa55qE5oOz6LGh5Yqb44CC5bCx5YOP5oOg54m55pu85omA6K+077ya4oCY5oiR6LWe576O5oiR6Ieq5bex77yM5q2M5ZSx6Ieq5bex44CC4oCZ5oiW6K645L2g5Y+v5Lul5LuO6Ieq5oiR5o6i57Si5Lit5om+5Yiw562U5qGI44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIsCiAgICAgICAgICAgICLov5nkuKrpl67popjlvojmnInmjJHmiJjmgKfvvIzlsLHlg4/psoHov4XmiYDor7TvvJrigJjluIzmnJvmmK/pmYTkuL3kuo7lrZjlnKjnmoTvvIzmnInlrZjlnKjvvIzkvr/mnInluIzmnJvjgILigJnmiJborrjkvaDlj6/ku6Xku47luIzmnJvkuK3lr7vmib7nrZTmoYjjgILlj6/ku6XlnKjov5nph4zovpPlhaUg5byA5ZCv5pCc57Si5Yqf6IO9IOi/meagt+WwseiDveWkn+aQnOe0ouWIsOaCqOaDs+eci+eahOWVpiB+IiwKICAgICAgICAgICAgIuaIluiuuOi/meS4qumXrumimOmcgOimgeabtOWkmueahOiAkOW/g+OAguWwseWDj+eOi+mYs+aYjuaJgOivtO+8muKAmOefpeihjOWQiOS4gOOAguKAmeaIluiuuOS9oOWPr+S7pemAmui/h+Wunui3teadpeWvu+aJvuetlOahiOOAguWPr+S7peWcqOi/memHjOi+k+WFpSDlvIDlkK/mkJzntKLlip/og70g6L+Z5qC35bCx6IO95aSf5pCc57Si5Yiw5oKo5oOz55yL55qE5ZWmIH5vKF7ilr1eKW8iLAogICAgICAgICAgICAi6L+Z5Liq6Zeu6aKY6K6p5oiR5oOz6LW35LqG44CK6K666K+t44CL5Lit55qE5LiA5Y+l6K+d77ya4oCY5LiJ5Lq66KGM77yM5b+F5pyJ5oiR5biI54SJ44CC4oCZ5oiW6K645L2g5Y+v5Lul5ZCR5LuW5Lq66K+35pWZ44CC5Y+v5Lul5Zyo6L+Z6YeM6L6T5YWlIOW8gOWQr+aQnOe0ouWKn+iDvSDov5nmoLflsLHog73lpJ/mkJzntKLliLDmgqjmg7PnnIvnmoTllaYgfiIKICAgICAgICBdOwogICAgCiAgICAvLyDpmo/mnLrpgInmi6nkuIDkuKrpu5jorqTlm57lpI0KICAgIHJldHVybiBkZWZhdWx0UmVzcG9uc2VzW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIGRlZmF1bHRSZXNwb25zZXMubGVuZ3RoKV07Cn0KCiAgICBmdW5jdGlvbiBhZGRNZXNzYWdlKHNlbmRlciwgdGV4dCwgY2xhc3NOYW1lKSB7CiAgICAgICAgY29uc3QgcCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInAiKTsKICAgICAgICBwLmNsYXNzTmFtZSA9IGNsYXNzTmFtZTsKICAgICAgICBwLmlubmVySFRNTCA9IGA8Yj4ke3NlbmRlcn3vvJo8L2I+ICR7dGV4dH1gOwogICAgICAgIGNoYXRCb3guYXBwZW5kQ2hpbGQocCk7CiAgICAgICAgc2Nyb2xsVG9Cb3R0b20oKTsKICAgIH0KICAgIAogICAgZnVuY3Rpb24gdHlwZU1lc3NhZ2Uoc2VuZGVyLCB0ZXh0LCBjbGFzc05hbWUpIHsKICAgICAgICBpc1R5cGluZyA9IHRydWU7IC8vIOagh+iusEFJ5byA5aeL5Zue5aSNCiAgICAgICAgZGlzYWJsZUlucHV0QW5kQnV0dG9uKCk7IC8vIOemgeeUqOi+k+WFpeahhuWSjOWPkemAgeaMiemSrgogICAgCiAgICAgICAgY29uc3QgcCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInAiKTsKICAgICAgICBwLmNsYXNzTmFtZSA9IGNsYXNzTmFtZTsKICAgICAgICBwLmlubmVySFRNTCA9IGA8Yj4ke3NlbmRlcn3vvJo8L2I+IDxzcGFuIGNsYXNzPSJ0eXBpbmctdGV4dCI+PC9zcGFuPjxzcGFuIGNsYXNzPSJ0eXBpbmctZG90Ij7il4k8L3NwYW4+YDsKICAgICAgICBjaGF0Qm94LmFwcGVuZENoaWxkKHApOwogICAgICAgIHNjcm9sbFRvQm90dG9tKCk7CiAgICAKICAgICAgICBjb25zdCB0eXBpbmdEb3QgPSBwLnF1ZXJ5U2VsZWN0b3IoIi50eXBpbmctZG90Iik7CiAgICAgICAgY29uc3QgdHlwaW5nVGV4dCA9IHAucXVlcnlTZWxlY3RvcigiLnR5cGluZy10ZXh0Iik7CiAgICAKICAgICAgICBsZXQgc2NhbGUgPSAxOwogICAgICAgIGxldCBncm93aW5nID0gdHJ1ZTsKICAgICAgICBjb25zdCBhbmltYXRlVHlwaW5nID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICAgICAgICBzY2FsZSA9IGdyb3dpbmcgPyBzY2FsZSArIDAuMSA6IHNjYWxlIC0gMC4xOwogICAgICAgICAgICBpZiAoc2NhbGUgPj0gMS41KSBncm93aW5nID0gZmFsc2U7CiAgICAgICAgICAgIGlmIChzY2FsZSA8PSAxKSBncm93aW5nID0gdHJ1ZTsKICAgICAgICAgICAgdHlwaW5nRG90LnN0eWxlLnRyYW5zZm9ybSA9IGBzY2FsZSgke3NjYWxlfSlgOwogICAgICAgIH0sIDEwMCk7CiAgICAKICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgICAgY2xlYXJJbnRlcnZhbChhbmltYXRlVHlwaW5nKTsKICAgICAgICAgICAgdHlwaW5nRG90LnN0eWxlLnRyYW5zZm9ybSA9ICJzY2FsZSgxKSI7CiAgICAgICAgICAgIHR5cGluZ0RvdC5zdHlsZS5hbmltYXRpb24gPSAibm9uZSI7CiAgICAKICAgICAgICAgICAgbGV0IGluZGV4ID0gMDsKICAgICAgICAgICAgY29uc3QgdHlwZUludGVydmFsID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICAgICAgICAgICAgaWYgKGluZGV4IDwgdGV4dC5sZW5ndGgpIHsKICAgICAgICAgICAgICAgICAgICB0eXBpbmdUZXh0LmlubmVySFRNTCArPSB0ZXh0W2luZGV4XTsKICAgICAgICAgICAgICAgICAgICBpbmRleCsrOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBjbGVhckludGVydmFsKHR5cGVJbnRlcnZhbCk7CiAgICAgICAgICAgICAgICAgICAgdHlwaW5nRG90LnJlbW92ZSgpOwogICAgICAgICAgICAgICAgICAgIGlzVHlwaW5nID0gZmFsc2U7IC8vIOagh+iusEFJ5Zue5aSN5a6M5q+VCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlSW5wdXRBbmRCdXR0b24oKTsgLy8g5ZCv55So6L6T5YWl5qGG5ZKM5Y+R6YCB5oyJ6ZKuCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzY3JvbGxUb0JvdHRvbSgpOwogICAgICAgICAgICB9LCAxMik7CiAgICAgICAgfSwgNTAwMCk7CiAgICB9CiAgICAKICAgIGZ1bmN0aW9uIHNjcm9sbFRvQm90dG9tKCkgewogICAgICAgIGNoYXRCb3guc2Nyb2xsVG8oeyB0b3A6IGNoYXRCb3guc2Nyb2xsSGVpZ2h0LCBiZWhhdmlvcjogInNtb290aCIgfSk7CiAgICB9CiAgICAKICAgIHVzZXJJbnB1dC5hZGRFdmVudExpc3RlbmVyKCJrZXlkb3duIiwgZnVuY3Rpb24oZXZlbnQpIHsKICAgICAgICBpZiAoZXZlbnQua2V5ID09PSAiRW50ZXIiKSB7CiAgICAgICAgICAgIHNlbmRNZXNzYWdlKCk7CiAgICAgICAgfQogICAgfSk7CiAgICAKICAgIGZ1bmN0aW9uIHF1aWNrUmVwbHkoYnV0dG9uLCB0ZXh0KSB7CiAgICAgICAgaWYgKGlzVHlwaW5nKSByZXR1cm47IC8vIOWmguaenEFJ5q2j5Zyo5Zue5aSN77yM5YiZ55u05o6l6L+U5Zue77yM5LiN5omn6KGM5b+r5o235Zue5aSNCiAgICAgICAgdXNlcklucHV0LnZhbHVlID0gdGV4dDsKICAgICAgICBzZW5kTWVzc2FnZSgpOwogICAgICAgIGJ1dHRvbi5zdHlsZS5kaXNwbGF5ID0gIm5vbmUiOwogICAgfQogICAgCiAgICAvLyDnpoHnlKjovpPlhaXmoYblkozlj5HpgIHmjInpkq4KICAgIGZ1bmN0aW9uIGRpc2FibGVJbnB1dEFuZEJ1dHRvbigpIHsKICAgICAgICB1c2VySW5wdXQuZGlzYWJsZWQgPSB0cnVlOwogICAgICAgIHNlbmRCdXR0b24uZGlzYWJsZWQgPSB0cnVlOwogICAgfQogICAgCiAgICAvLyDlkK/nlKjovpPlhaXmoYblkozlj5HpgIHmjInpkq4KICAgIGZ1bmN0aW9uIGVuYWJsZUlucHV0QW5kQnV0dG9uKCkgewogICAgICAgIHVzZXJJbnB1dC5kaXNhYmxlZCA9IGZhbHNlOwogICAgICAgIHNlbmRCdXR0b24uZGlzYWJsZWQgPSBmYWxzZTsKICAgIH0KICAgIAoKCgogICAgZnVuY3Rpb24gc3BlYWtNZXNzYWdlKCkgewogICAgICBjb25zdCBhaU1lc3NhZ2UgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIuYWktbWVzc2FnZTpsYXN0LWNoaWxkIik7CiAgICAgIGlmICghYWlNZXNzYWdlKSByZXR1cm47CiAgCiAgICAgIGNvbnN0IHRleHQgPSBhaU1lc3NhZ2UudGV4dENvbnRlbnQucmVwbGFjZSgi54Gr54uu5Yqp5omL77yaIiwgIiIpLnRyaW0oKTsKICAgICAgaWYgKCF0ZXh0KSByZXR1cm47CgogIAogICAgICBjb25zdCB1dHRlcmFuY2UgPSBuZXcgU3BlZWNoU3ludGhlc2lzVXR0ZXJhbmNlKHRleHQpOwogICAgICB1dHRlcmFuY2UubGFuZyA9ICJ6aC1DTiI7CiAgICAgIHV0dGVyYW5jZS5yYXRlID0gMS41OwogICAgICB1dHRlcmFuY2UucGl0Y2ggPSAxOwogICAgICB1dHRlcmFuY2Uudm9sdW1lID0gMTsKICAKICAgICAgLy8g5YWI5riF56m65LmL5YmN55qE6K+t6Z+z77yM6Ziy5q2i5Yay56qBCiAgICAgIHdpbmRvdy5zcGVlY2hTeW50aGVzaXMuY2FuY2VsKCk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgICAgd2luZG93LnNwZWVjaFN5bnRoZXNpcy5zcGVhayh1dHRlcmFuY2UpOwogICAgICB9LCAxMDApOyAvLyDpgILlvZPlu7bov5/vvIzpmLLmraIgY2FuY2VsKCkg5a+86Ie05pKt5pS+5aSx6LSlCiAgCiAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzdG9wLXZvaWNlLWJ1dHRvbiIpLnN0eWxlLmRpc3BsYXkgPSAiaW5saW5lLWJsb2NrIjsKICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInNwZWFrLWJ1dHRvbiIpLnN0eWxlLmRpc3BsYXkgPSAibm9uZSI7CiAgCiAgICAgIHV0dGVyYW5jZS5vbmVuZCA9IGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzdG9wLXZvaWNlLWJ1dHRvbiIpLnN0eWxlLmRpc3BsYXkgPSAibm9uZSI7CiAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgic3BlYWstYnV0dG9uIikuc3R5bGUuZGlzcGxheSA9ICJpbmxpbmUtYmxvY2siOwogICAgICB9OwogIAogICAgICB1dHRlcmFuY2Uub25lcnJvciA9IGZ1bmN0aW9uIChldmVudCkgewogICAgICAgICAgY29uc29sZS5lcnJvcigi6K+t6Z+z5pKt5pS+5Y+R55Sf6ZSZ6K+v77yaIiwgZXZlbnQpOwogICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInN0b3Atdm9pY2UtYnV0dG9uIikuc3R5bGUuZGlzcGxheSA9ICJub25lIjsKICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzcGVhay1idXR0b24iKS5zdHlsZS5kaXNwbGF5ID0gImlubGluZS1ibG9jayI7CiAgICAgIH07CiAgfQogIAoKCgoKICAvLyDmlrDku6PnoIEg57uE5ZCI6K+NIOWIhuaekCBhaSDlm57lpI0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgovL+S7peS4iueahOiBiuWkqeS7o+eggeW3suiiq+enu+WKqOWIsOWFtuWug+aWh+S7tuS4rQoKCgoKCgoKCgoKCi8vIOajgOafpeWFs+mUruivjee7hOWQiOaYr+WQpuWMuemFjQpmdW5jdGlvbiBjaGVja0tleXdvcmRNYXRjaChtZXNzYWdlKSB7CiAgY29uc3QgbG93ZXJNZXNzYWdlID0gbWVzc2FnZS50b0xvd2VyQ2FzZSgpOyAvLyDovazmjaLkuLrlsI/lhpnku6Xkvr/kuI3ljLrliIblpKflsI/lhpkKICBmb3IgKGNvbnN0IGl0ZW0gb2Yga2V5d29yZFJlc3BvbnNlcykgewogICAgICBjb25zdCBhbGxLZXl3b3Jkc1ByZXNlbnQgPSBpdGVtLmtleXdvcmRzLmV2ZXJ5KGtleXdvcmQgPT4gbG93ZXJNZXNzYWdlLmluY2x1ZGVzKGtleXdvcmQpKTsKICAgICAgaWYgKGFsbEtleXdvcmRzUHJlc2VudCkgewogICAgICAgICAgcmV0dXJuIGl0ZW0ucmVzcG9uc2VzW01hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIGl0ZW0ucmVzcG9uc2VzLmxlbmd0aCldOyAvLyDpmo/mnLrpgInmi6nkuIDkuKrlm57lpI0KICAgICAgfQogIH0KICByZXR1cm4gbnVsbDsgLy8g5aaC5p6c5LiN5Yy56YWN77yM6L+U5ZueIG51bGwKfQoKLy8g6Kej5Yaz6YeN5aSN5Y+R6YCB6Zeu6aKYCmxldCBzZW5kTWVzc2FnZUNhbGxlZCA9IGZhbHNlOyAvLyDpmLLmraLph43lpI3osIPnlKgKCmZ1bmN0aW9uIHNlbmRNZXNzYWdlKCkgewogIGlmIChpc1R5cGluZyB8fCBzZW5kTWVzc2FnZUNhbGxlZCkgcmV0dXJuOyAvLyDlpoLmnpwgQUkg5q2j5Zyo5Zue5aSN5oiW5bey5Y+R6YCB5raI5oGv77yM5YiZ55u05o6l6L+U5ZueCiAgc2VuZE1lc3NhZ2VDYWxsZWQgPSB0cnVlOyAvLyDmoIforrDlt7LosIPnlKgKCiAgc2V0VGltZW91dCgoKSA9PiB7IHNlbmRNZXNzYWdlQ2FsbGVkID0gZmFsc2U7IH0sIDUwMCk7IC8vIDUwMG1zIOWQjuWFgeiuuOmHjeaWsOWPkemAgQoKICBjb25zdCBtZXNzYWdlID0gdXNlcklucHV0LnZhbHVlLnRyaW0oKTsKICBpZiAobWVzc2FnZSA9PT0gIiIpIHJldHVybjsKCiAgYWRkTWVzc2FnZSgi5L2gIiwgbWVzc2FnZSwgInVzZXItbWVzc2FnZSIpOwoKICAvLyAqKuS8mOWFiOajgOafpeWFs+mUruivjeWMuemFjSoqCiAgY29uc3Qga2V5d29yZFJlc3BvbnNlID0gY2hlY2tLZXl3b3JkTWF0Y2gobWVzc2FnZSk7CiAgaWYgKGtleXdvcmRSZXNwb25zZSkgewogICAgICB0eXBlTWVzc2FnZSgi54Gr54uu5Yqp5omLIiwga2V5d29yZFJlc3BvbnNlLCAiYWktbWVzc2FnZSIpOwogIH0gZWxzZSBpZiAoaXNNYXRoRXhwcmVzc2lvbihtZXNzYWdlKSkgewogICAgICAvLyAqKuWmguaenOWFs+mUruivjeWMuemFjeWksei0pe+8jOWGjeajgOafpeaYr+WQpuS4uuaVsOWtpuihqOi+vuW8jyoqCiAgICAgIGNvbnN0IHJlc3VsdCA9IGNhbGN1bGF0ZU1hdGgobWVzc2FnZSk7CiAgICAgIHR5cGVNZXNzYWdlKCLngavni67liqnmiYsiLCByZXN1bHQudG9TdHJpbmcoKSwgImFpLW1lc3NhZ2UiKTsKICB9IGVsc2UgewogICAgICAvLyAqKuWmguaenOmDveS4jeaYr++8jOS9v+eUqOm7mOiupOeahOWFs+mUruivjeWbnuWkjSoqCiAgICAgIGxldCByZXNwb25zZSA9IGdldFJlc3BvbnNlKG1lc3NhZ2UpOwogICAgICB0eXBlTWVzc2FnZSgi54Gr54uu5Yqp5omLIiwgcmVzcG9uc2UsICJhaS1tZXNzYWdlIik7CiAgfQoKICB1c2VySW5wdXQudmFsdWUgPSAiIjsgLy8g5riF56m66L6T5YWl5qGGCn0KCgoKICAgLy8g5pS56L+b5ZCO55qEIGlzTWF0aEV4cHJlc3Npb24g5Ye95pWwX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KLy8g5qOA5p+l5piv5ZCm5Li65pWw5a2m6KGo6L6+5byPCgpmdW5jdGlvbiBpc01hdGhFeHByZXNzaW9uKG1lc3NhZ2UpIHsKICBtZXNzYWdlID0gbWVzc2FnZS50cmltKCk7CiAgcmV0dXJuIC9bK1wtKi9eKCk9XS8udGVzdChtZXNzYWdlKSB8fCAv5YqgfOWHj3zkuZh86ZmkfMO3fMOXfMK3fCUvLnRlc3QobWVzc2FnZSk7Cn0KCi8v5pWw5a2mCgpmdW5jdGlvbiBjYWxjdWxhdGVNYXRoKGV4cHJlc3Npb24pIHsKICB0cnkgewogICAgICAvLyDmuIXnkIbooajovr7lvI/vvIzmm7/mjaLkuK3mlofnrKblj7cKICAgICAgbGV0IGNsZWFuZWRFeHByZXNzaW9uID0gZXhwcmVzc2lvbgogICAgICAgICAgLnJlcGxhY2UoL+WKoC9nLCAnKycpCiAgICAgICAgICAucmVwbGFjZSgv5YePL2csICctJykKICAgICAgICAgIC5yZXBsYWNlKC/kuZgvZywgJyonKQogICAgICAgICAgLnJlcGxhY2UoL+mZpC9nLCAnLycpCiAgICAgICAgICAucmVwbGFjZSgvw7cvZywgJy8nKQogICAgICAgICAgLnJlcGxhY2UoL8OXL2csICcqJykKICAgICAgICAgIC5yZXBsYWNlKC/Cty9nLCAnKicpOwoKICAgICAgLy8g5aSE55CGIuaVsOWtlyDCsSDnmb7liIbmr5QiIOS+i+WmgiAxMDAgKyA1MCUg5Y+Y5Li6IDEwMCArICgxMDAgKiA1MCAvIDEwMCkKICAgICAgY2xlYW5lZEV4cHJlc3Npb24gPSBjbGVhbmVkRXhwcmVzc2lvbi5yZXBsYWNlKC8oXGQrKVxzKihbXCtcLV0pXHMqKFxkKyklL2csIChtYXRjaCwgbnVtLCBvcGVyYXRvciwgcGVyY2VudCkgPT4gewogICAgICAgICAgcmV0dXJuIGAke251bX0gJHtvcGVyYXRvcn0gKCR7bnVtfSAqICR7cGVyY2VudH0gLyAxMDApYDsKICAgICAgfSk7CgogICAgICAvLyDlpITnkIYi5pWw5a2XICog5oiWIC8g55m+5YiG5q+UIiDkvovlpoIgMTAwICogNTAlIOWPmOS4uiAxMDAgKiAoNTAgLyAxMDApCiAgICAgIGNsZWFuZWRFeHByZXNzaW9uID0gY2xlYW5lZEV4cHJlc3Npb24ucmVwbGFjZSgvKFxkKylccyooW1wqL10pXHMqKFxkKyklL2csIChtYXRjaCwgbnVtLCBvcGVyYXRvciwgcGVyY2VudCkgPT4gewogICAgICAgICAgcmV0dXJuIGAke251bX0gJHtvcGVyYXRvcn0gKCR7cGVyY2VudH0gLyAxMDApYDsKICAgICAgfSk7CgogICAgICAvLyDnoa7kv53ooajovr7lvI/lj6rljIXlkKvmlbDlrZfjgIHov5DnrpfnrKbjgIHlsI/mlbDngrnlkozmi6zlj7cKICAgICAgY2xlYW5lZEV4cHJlc3Npb24gPSBjbGVhbmVkRXhwcmVzc2lvbi5yZXBsYWNlKC9bXjAtOStcLSovKCkuXS9nLCAnJyk7CgogICAgICAvLyDorqHnrpfooajovr7lvI8KICAgICAgY29uc3QgcmVzdWx0ID0gZXZhbChjbGVhbmVkRXhwcmVzc2lvbik7CiAgICAgIHJldHVybiByZXN1bHQ7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgcmV0dXJuICLmirHmrYnvvIzov5nkuKrmlbDlrabooajovr7lvI/ml6Dms5XorqHnrpfvvIzor7fnoa7kv53ooajovr7lvI/mraPnoa7kuJTlj6rljIXlkKvmlbDlrZflkozov5DnrpfnrKbjgIIiOwogIH0KfQoKCgoKLy8g5pCc57Si5Yqf6IO9IAoKbGV0IHNlYXJjaEVuYWJsZWQgPSBmYWxzZTsgLy8g5piv5ZCm5ZCv55So5pCc57Si5qih5byPCmxldCBzZWFyY2hGcmFtZSA9IG51bGw7IC8vIOeUqOS6juWtmOWCqOaQnOe0oueql+WPowoKZnVuY3Rpb24gc2VuZE1lc3NhZ2UoKSB7CiAgICBpZiAoaXNUeXBpbmcgfHwgc2VuZE1lc3NhZ2VDYWxsZWQpIHJldHVybjsKICAgIHNlbmRNZXNzYWdlQ2FsbGVkID0gdHJ1ZTsKICAgIHNldFRpbWVvdXQoKCkgPT4geyBzZW5kTWVzc2FnZUNhbGxlZCA9IGZhbHNlOyB9LCA1MDApOwoKICAgIGNvbnN0IG1lc3NhZ2UgPSB1c2VySW5wdXQudmFsdWUudHJpbSgpOwogICAgaWYgKG1lc3NhZ2UgPT09ICIiKSByZXR1cm47CgogICAgYWRkTWVzc2FnZSgi5L2gIiwgbWVzc2FnZSwgInVzZXItbWVzc2FnZSIpOwoKICAgIC8vIOW8gOWQr+aQnOe0ouWKn+iDvQogICAgaWYgKG1lc3NhZ2UgPT09ICLlvIDlkK/mkJzntKLlip/og70iKSB7CiAgICAgICAgc2VhcmNoRW5hYmxlZCA9IHRydWU7CiAgICAgICAgdHlwZU1lc3NhZ2UoIueBq+eLruWKqeaJiyIsICLmkJzntKLlip/og73lt7LlvIDlkK/vvIzor7fovpPlhaXmkJzntKLlhoXlrrnjgIIg77+077+0IO+/tCDvv7Tvv7Qg77+0IO+/tCDvv7Tvv7Tvv7Qg77+077+0IO+/tCDvv7Tvv7QgIO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+077+077+0IO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7QgIO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+077+077+0IO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7QgIO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+077+077+0IO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7QgIO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+077+077+0IO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7QgIO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+077+077+0IO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7QgIO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+077+077+0IO+/tO+/tCDvv7Qg77+077+0IO+/tCDvv7Qg77+0IO+/tCDmj5DnpLrvvJrlpoLmnpzmgqjopoHlhbPpl63mkJzntKLlip/og73lj6/ku6Xnm7TmjqXovpPlhaUg5YWz6Zet5pCc57Si5Yqf6IO9IiwgImFpLW1lc3NhZ2UiKTsKICAgICAgICB1c2VySW5wdXQudmFsdWUgPSAiIjsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgLy8g5YWz6Zet5pCc57Si5Yqf6IO9CiAgICBpZiAobWVzc2FnZSA9PT0gIuWFs+mXreaQnOe0ouWKn+iDvSIpIHsKICAgICAgICBzZWFyY2hFbmFibGVkID0gZmFsc2U7CiAgICAgICAgaWYgKHNlYXJjaEZyYW1lKSB7CiAgICAgICAgICAgIHNlYXJjaEZyYW1lLnJlbW92ZSgpOyAvLyDnp7vpmaTltYzlhaXnmoQgQmluZyDnu5PmnpwKICAgICAgICAgICAgc2VhcmNoRnJhbWUgPSBudWxsOwogICAgICAgIH0KICAgICAgICB0eXBlTWVzc2FnZSgi54Gr54uu5Yqp5omLIiwgIuaQnOe0ouWKn+iDveW3suWFs+mXre+8jOaBouWkjeiBiuWkqeaooeW8j+OAgiIsICJhaS1tZXNzYWdlIik7CiAgICAgICAgdXNlcklucHV0LnZhbHVlID0gIiI7CiAgICAgICAgcmV0dXJuOwogICAgfQoKICAgIC8vIOWcqOaQnOe0ouaooeW8j+S4i+i/m+ihjOaQnOe0ogogICAgaWYgKHNlYXJjaEVuYWJsZWQpIHsKICAgICAgICB0eXBlTWVzc2FnZSgi54Gr54uu5Yqp5omLIiwgIuato+WcqOaQnOe0ou+8jOivt+eojeWAmS4uLiAg5Lul5LiL5piv5pCc57Si57uT5p6cIiwgImFpLW1lc3NhZ2UiKTsKCiAgICAgICAgLy8g5Yig6Zmk5LmL5YmN55qE5pCc57Si56qX5Y+jCiAgICAgICAgaWYgKHNlYXJjaEZyYW1lKSB7CiAgICAgICAgICAgIHNlYXJjaEZyYW1lLnJlbW92ZSgpOwogICAgICAgIH0KCiAgICAgICAgLy8g5Yib5bu65LiA5LiqIGlmcmFtZSDkvZzkuLrmkJzntKLnqpflj6MKICAgICAgICBzZWFyY2hGcmFtZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImlmcmFtZSIpOwogICAgICAgIHNlYXJjaEZyYW1lLnNyYyA9IGBodHRwczovL3d3dy5iaW5nLmNvbS9zZWFyY2g/cT0ke2VuY29kZVVSSUNvbXBvbmVudChtZXNzYWdlKX1gOwogICAgICAgIHNlYXJjaEZyYW1lLnN0eWxlLndpZHRoID0gIjEwMCUiOwogICAgICAgIHNlYXJjaEZyYW1lLnN0eWxlLmhlaWdodCA9ICI0MDBweCI7CiAgICAgICAgc2VhcmNoRnJhbWUuc3R5bGUuYm9yZGVyID0gIm5vbmUiOwogICAgICAgIHNlYXJjaEZyYW1lLnN0eWxlLmJvcmRlclJhZGl1cyA9ICI4cHgiOwogICAgICAgIHNlYXJjaEZyYW1lLnN0eWxlLm1hcmdpblRvcCA9ICIxMHB4IjsKICAgICAgICBzZWFyY2hGcmFtZS5zdHlsZS5wYWRkaW5nVG9wID0gIjUwcHgiOyAvLyDlop7liqDkuIrmlrnpl7Tot50KCgogICAgICAgIC8vIOetieW+hSBBSSDlm57lpI3lrozmiJDlkI7mj5LlhaUgaWZyYW1lCiAgICAgICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICAgIGNoYXRCb3guYXBwZW5kQ2hpbGQoc2VhcmNoRnJhbWUpOwogICAgICAgICAgICBzY3JvbGxUb0JvdHRvbSgpOyAvLyDmu5rliqjliLDlupXpg6gKICAgICAgICB9LCAxMDAwKTsKCiAgICAgICAgdXNlcklucHV0LnZhbHVlID0gIiI7CiAgICAgICAgcmV0dXJuOwogICAgfQoKICAgIC8vICoq5YW25LuW5q2j5bi46IGK5aSp6YC76L6RKioKICAgIGNvbnN0IGtleXdvcmRSZXNwb25zZSA9IGNoZWNrS2V5d29yZE1hdGNoKG1lc3NhZ2UpOwogICAgaWYgKGtleXdvcmRSZXNwb25zZSkgewogICAgICAgIHR5cGVNZXNzYWdlKCLngavni67liqnmiYsiLCBrZXl3b3JkUmVzcG9uc2UsICJhaS1tZXNzYWdlIik7CiAgICB9IGVsc2UgaWYgKGlzTWF0aEV4cHJlc3Npb24obWVzc2FnZSkpIHsKICAgICAgICBjb25zdCByZXN1bHQgPSBjYWxjdWxhdGVNYXRoKG1lc3NhZ2UpOwogICAgICAgIHR5cGVNZXNzYWdlKCLngavni67liqnmiYsiLCByZXN1bHQudG9TdHJpbmcoKSwgImFpLW1lc3NhZ2UiKTsKICAgIH0gZWxzZSB7CiAgICAgICAgbGV0IHJlc3BvbnNlID0gZ2V0UmVzcG9uc2UobWVzc2FnZSk7CiAgICAgICAgdHlwZU1lc3NhZ2UoIueBq+eLruWKqeaJiyIsIHJlc3BvbnNlLCAiYWktbWVzc2FnZSIpOwogICAgfQoKICAgIHVzZXJJbnB1dC52YWx1ZSA9ICIiOwp9CgoKCgovLyDmjInpkq7mkJzntKLlm57lpI0KCmZ1bmN0aW9uIHRvZ2dsZUJ1dHRvbnMoKSB7CiAgY29uc3QgYnV0dG9uQ29udGFpbmVyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImJ1dHRvbi1jb250YWluZXIiKTsKICBjb25zdCB0b2dnbGVCdXR0b24gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgidG9nZ2xlLWJ1dHRvbiIpOwoKICBpZiAoYnV0dG9uQ29udGFpbmVyLmNsYXNzTGlzdC5jb250YWlucygiaGlkZGVuIikpIHsKICAgICAgYnV0dG9uQ29udGFpbmVyLmNsYXNzTGlzdC5yZW1vdmUoImhpZGRlbiIpOwogICAgICB0b2dnbGVCdXR0b24udGV4dENvbnRlbnQgPSAi6ZqQ6JeP5YaF5a65IjsKICB9IGVsc2UgewogICAgICBidXR0b25Db250YWluZXIuY2xhc3NMaXN0LmFkZCgiaGlkZGVuIik7CiAgICAgIHRvZ2dsZUJ1dHRvbi50ZXh0Q29udGVudCA9ICLmmL7npLrlhoXlrrkiOwogIH0KfQoKCgovLyDlvZXpn7MKCi8vIHZvaWNlSW5wdXQuanMKCi8vIOivremfs+i+k+WFpeebuOWFs+WPmOmHjwpsZXQgcmVjb2duaXRpb247CmxldCBpc1ZvaWNlSW5wdXRBY3RpdmUgPSBmYWxzZTsKCi8vIOWQr+WKqOivremfs+i+k+WFpQpmdW5jdGlvbiBzdGFydFZvaWNlSW5wdXQoKSB7CiAgICBpZiAoIXdpbmRvdy5TcGVlY2hSZWNvZ25pdGlvbiAmJiAhd2luZG93LndlYmtpdFNwZWVjaFJlY29nbml0aW9uKSB7CiAgICAgICAgYWxlcnQoIuW9k+WJjea1j+iniOWZqOS4jeaUr+aMgeivremfs+i+k+WFpeWKn+iDve+8jOivt+S9v+eUqOaUr+aMgVdlYiBTcGVlY2ggQVBJ55qE5rWP6KeI5Zmo77yI5aaCQ2hyb21l77yJ44CCIik7CiAgICAgICAgcmV0dXJuOwogICAgfQoKICAgIHJlY29nbml0aW9uID0gbmV3ICh3aW5kb3cuU3BlZWNoUmVjb2duaXRpb24gfHwgd2luZG93LndlYmtpdFNwZWVjaFJlY29nbml0aW9uKSgpOwogICAgcmVjb2duaXRpb24ubGFuZyA9ICJ6aC1DTiI7IC8vIOiuvue9ruivreiogOS4uuS4reaWhwogICAgcmVjb2duaXRpb24uaW50ZXJpbVJlc3VsdHMgPSBmYWxzZTsgLy8g5LiN5pi+56S65Lit6Ze057uT5p6cCiAgICByZWNvZ25pdGlvbi5tYXhBbHRlcm5hdGl2ZXMgPSAxOyAvLyDmnIDlpJrov5Tlm57kuIDkuKrnu5PmnpwKCiAgICByZWNvZ25pdGlvbi5vbnJlc3VsdCA9IGZ1bmN0aW9uKGV2ZW50KSB7CiAgICAgICAgY29uc3QgdHJhbnNjcmlwdCA9IGV2ZW50LnJlc3VsdHNbMF1bMF0udHJhbnNjcmlwdDsgLy8g6I635Y+W6K+t6Z+z6K+G5Yir57uT5p6cCiAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInVzZXItaW5wdXQiKS52YWx1ZSA9IHRyYW5zY3JpcHQ7IC8vIOWwhue7k+aenOWhq+WFpei+k+WFpeahhgogICAgICAgIHN0b3BWb2ljZUlucHV0KCk7IC8vIOWBnOatouW9lemfswogICAgICAgIHNlbmRNZXNzYWdlKCk7IC8vIOiHquWKqOWPkemAgea2iOaBrwogICAgfTsKCiAgICByZWNvZ25pdGlvbi5vbmVycm9yID0gZnVuY3Rpb24oZXZlbnQpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCLor63pn7Por4bliKvplJnor6/vvJoiLCBldmVudC5lcnJvcik7CiAgICAgICAgc3RvcFZvaWNlSW5wdXQoKTsgLy8g5Ye66ZSZ5pe25YGc5q2i5b2V6Z+zCiAgICB9OwoKICAgIHJlY29nbml0aW9uLnN0YXJ0KCk7IC8vIOW8gOWni+ivremfs+ivhuWIqwogICAgaXNWb2ljZUlucHV0QWN0aXZlID0gdHJ1ZTsKICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJodW9zaGlzb3VuZGF1ZGlvLWJ1dHRvbiIpLnN0eWxlLmRpc3BsYXkgPSAibm9uZSI7CiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiaHVvc2hpc291bmRhdWRpby1zdG9wLWJ1dHRvbiIpLnN0eWxlLmRpc3BsYXkgPSAiaW5saW5lLWJsb2NrIjsKfQoKLy8g5YGc5q2i6K+t6Z+z6L6T5YWlCmZ1bmN0aW9uIHN0b3BWb2ljZUlucHV0KCkgewogICAgaWYgKHJlY29nbml0aW9uKSB7CiAgICAgICAgcmVjb2duaXRpb24uc3RvcCgpOyAvLyDlgZzmraLor63pn7Por4bliKsKICAgIH0KICAgIGlzVm9pY2VJbnB1dEFjdGl2ZSA9IGZhbHNlOwogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImh1b3NoaXNvdW5kYXVkaW8tYnV0dG9uIikuc3R5bGUuZGlzcGxheSA9ICJpbmxpbmUtYmxvY2siOwogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImh1b3NoaXNvdW5kYXVkaW8tc3RvcC1idXR0b24iKS5zdHlsZS5kaXNwbGF5ID0gIm5vbmUiOwp9CgovLyDliIfmjaLor63pn7PovpPlhaXnirbmgIEKZnVuY3Rpb24gdG9nZ2xlVm9pY2VJbnB1dCgpIHsKICAgIGlmIChpc1ZvaWNlSW5wdXRBY3RpdmUpIHsKICAgICAgICBzdG9wVm9pY2VJbnB1dCgpOwogICAgfSBlbHNlIHsKICAgICAgICBzdGFydFZvaWNlSW5wdXQoKTsKICAgIH0KfQoKCgovLyBnZW5zaGluIOWOn+elngoKLy8g5pe26Ze0CgpmdW5jdGlvbiB1cGRhdGVUaW1lKCkgewogICAgY29uc3Qgbm93ID0gbmV3IERhdGUoKTsKICAgIGNvbnN0IHRpbWVFbGVtZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2h1b3NoaXRpbWVzaGlqaWFuLXRpbWUtdGV4dCcpOwogICAgY29uc3QgZGF0ZUVsZW1lbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnaHVvc2hpdGltZXNoaWppYW4tZGF0ZS10ZXh0Jyk7CiAgICAKICAgIGNvbnN0IHRpbWVTdHJpbmcgPSBub3cudG9Mb2NhbGVUaW1lU3RyaW5nKCdlbi1VUycsIHsKICAgICAgICBob3VyMTI6IGZhbHNlLAogICAgICAgIGhvdXI6ICcyLWRpZ2l0JywKICAgICAgICBtaW51dGU6ICcyLWRpZ2l0JywKICAgICAgICBzZWNvbmQ6ICcyLWRpZ2l0JwogICAgfSkucmVwbGFjZSgvOi9nLCAnPHNwYW4gY2xhc3M9ImNvbG9uIj46PC9zcGFuPicpOwogICAgCiAgICBjb25zdCBkYXRlU3RyaW5nID0gbm93LnRvTG9jYWxlRGF0ZVN0cmluZygnZW4tVVMnLCB7CiAgICAgICAgd2Vla2RheTogJ2xvbmcnLAogICAgICAgIHllYXI6ICdudW1lcmljJywKICAgICAgICBtb250aDogJ2xvbmcnLAogICAgICAgIGRheTogJ251bWVyaWMnCiAgICB9KS50b1VwcGVyQ2FzZSgpOwoKICAgIHRpbWVFbGVtZW50LmlubmVySFRNTCA9IHRpbWVTdHJpbmc7CiAgICBkYXRlRWxlbWVudC50ZXh0Q29udGVudCA9IGRhdGVTdHJpbmc7Cn0KCi8vIOWIneWni+WMlgpzZXRJbnRlcnZhbCh1cGRhdGVUaW1lLCAxMDAwKTsKdXBkYXRlVGltZSgpOw=="))));
+
+
+    // 发送消息
+
+    
+    // 新的函数：获取回复
+    function getResponse(message) {
+        // 将关键词按长度从长到短排序
+        const sortedKeys = Object.keys(responses).sort((a, b) => b.length - a.length);
+    
+        // 遍历排序后的关键词
+        for (const key of sortedKeys) {
+            if (message.includes(key)) {
+                // 如果用户输入完全匹配某个关键词，直接返回对应的回复
+                if (message === key) {
+                    return responses[key][Math.floor(Math.random() * responses[key].length)];
+                }
+                // 如果用户输入包含关键词，返回对应的回复
+                return responses[key][Math.floor(Math.random() * responses[key].length)];
+            }
+        }
+    
+        // 如果没有匹配到关键词，返回默认回复
+        const defaultResponses = [
+            "这个问题看起来很有趣，你可以在浏览器上搜索一下关于这个问题的信息，或许能够帮助到你。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~ o(^▽^)o",
+            "我不太确定这个问题的答案，你可以尝试用不同的方式描述一下，我会尽力帮你！可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题有点难哦，不过你可以试试看查找相关的资料，说不定能找到答案。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "我目前还不太明白你的问题，不过你可以详细说说，我会尽力帮你解答！可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题好像超出了我的知识范围呢，你可以试试去问问专业人士哦。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "正如苏格拉底所说：‘我唯一知道的就是我一无所知。’或许这个问题需要更深入的探讨。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "孔子云：‘学而不思则罔，思而不学则殆。’或许你可以从多个角度思考这个问题，或者查阅更多资料。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~ o(^▽^)o",
+            "这个问题很有深度，就像亚里士多德所说：‘知识来源于对问题的不断追问。’不妨再深入思考一下。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "有时候，答案并不在于找到一个明确的结论，而在于探索的过程本身。就像爱因斯坦所说：‘想象力比知识更重要。’可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~ o(^▽^)o",
+            "这个问题让我想起了海明威的一句话：‘幸福不是你拥有的，而是你经历的。’或许答案就在你的经历中。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "或许这个问题需要从不同的文化背景中寻找答案。就像泰戈尔所说：‘真理之川从他的错误之沟渠中流过。’可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题很有挑战性，就像尼采所说：‘那些未能击垮我们的，会使我们更强大。’你可以尝试从失败中寻找启示。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "有时候，答案并不总是显而易见的。就像梵高所说：‘伟大的事情都是从渺小的事情开始的。’或许你可以从细节入手。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题让我想起了老子的《道德经》：‘千里之行，始于足下。’或许你可以从一个小问题开始探索。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "或许这个问题需要更多的背景信息来解答。就像歌德所说：‘理论是灰色的，而生命之树常青。’可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题很有意思，就像莎士比亚所说：‘生活里没有书籍，就好像没有阳光。’或许你可以从书中寻找答案。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "有时候，最好的答案来自于内心的直觉。就像梭罗所说：‘我们的生活就像大海，只有勇敢的人才能到达彼岸。’ 可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~o(^▽^)o",
+            "这个问题让我想起了柏拉图的洞穴寓言：真理往往隐藏在表象之下。或许你需要更深入地挖掘。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "或许这个问题需要一些时间来思考。就像但丁所说：‘走自己的路，让别人去说吧。’可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~ o(^▽^)o",
+            "这个问题很有深度，就像卡夫卡所说：‘目的必须坚定，道路可以灵活。’或许你可以尝试不同的方法来解决。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "有时候，答案就在问题之中。就像黑格尔所说：‘矛盾是推动事物发展的动力。’可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题让我想起了《庄子·逍遥游》：‘北冥有鱼，其名为鲲。’或许答案需要从更广阔的视野中寻找。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "或许这个问题需要更多的想象力。就像惠特曼所说：‘我赞美我自己，歌唱自己。’或许你可以从自我探索中找到答案。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "这个问题很有挑战性，就像鲁迅所说：‘希望是附丽于存在的，有存在，便有希望。’或许你可以从希望中寻找答案。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~",
+            "或许这个问题需要更多的耐心。就像王阳明所说：‘知行合一。’或许你可以通过实践来寻找答案。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~o(^▽^)o",
+            "这个问题让我想起了《论语》中的一句话：‘三人行，必有我师焉。’或许你可以向他人请教。可以在这里输入 开启搜索功能 这样就能够搜索到您想看的啦 ~"
+        ];
+    
+    // 随机选择一个默认回复
+    return defaultResponses[Math.floor(Math.random() * defaultResponses.length)];
+}
+
+    function addMessage(sender, text, className) {
+        const p = document.createElement("p");
+        p.className = className;
+        p.innerHTML = `<b>${sender}：</b> ${text}`;
+        chatBox.appendChild(p);
+        scrollToBottom();
+    }
+    
+    function typeMessage(sender, text, className) {
+        isTyping = true; // 标记AI开始回复
+        disableInputAndButton(); // 禁用输入框和发送按钮
+    
+        const p = document.createElement("p");
+        p.className = className;
+        p.innerHTML = `<b>${sender}：</b> <span class="typing-text"></span><span class="typing-dot">◉</span>`;
+        chatBox.appendChild(p);
+        scrollToBottom();
+    
+        const typingDot = p.querySelector(".typing-dot");
+        const typingText = p.querySelector(".typing-text");
+    
+        let scale = 1;
+        let growing = true;
+        const animateTyping = setInterval(() => {
+            scale = growing ? scale + 0.1 : scale - 0.1;
+            if (scale >= 1.5) growing = false;
+            if (scale <= 1) growing = true;
+            typingDot.style.transform = `scale(${scale})`;
+        }, 100);
+    
+        setTimeout(() => {
+            clearInterval(animateTyping);
+            typingDot.style.transform = "scale(1)";
+            typingDot.style.animation = "none";
+    
+            let index = 0;
+            const typeInterval = setInterval(() => {
+                if (index < text.length) {
+                    typingText.innerHTML += text[index];
+                    index++;
+                } else {
+                    clearInterval(typeInterval);
+                    typingDot.remove();
+                    isTyping = false; // 标记AI回复完毕
+                    enableInputAndButton(); // 启用输入框和发送按钮
+                }
+                scrollToBottom();
+            }, 12);
+        }, 5000);
+    }
+    
+    function scrollToBottom() {
+        chatBox.scrollTo({ top: chatBox.scrollHeight, behavior: "smooth" });
+    }
+    
+    userInput.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            sendMessage();
+        }
+    });
+    
+    function quickReply(button, text) {
+        if (isTyping) return; // 如果AI正在回复，则直接返回，不执行快捷回复
+        userInput.value = text;
+        sendMessage();
+        button.style.display = "none";
+    }
+    
+    // 禁用输入框和发送按钮
+    function disableInputAndButton() {
+        userInput.disabled = true;
+        sendButton.disabled = true;
+    }
+    
+    // 启用输入框和发送按钮
+    function enableInputAndButton() {
+        userInput.disabled = false;
+        sendButton.disabled = false;
+    }
+    
+
+
+
+    function speakMessage() {
+      const aiMessage = document.querySelector(".ai-message:last-child");
+      if (!aiMessage) return;
+  
+      const text = aiMessage.textContent.replace("火狮助手：", "").trim();
+      if (!text) return;
+
+  
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "zh-CN";
+      utterance.rate = 1.5;
+      utterance.pitch = 1;
+      utterance.volume = 1;
+  
+      // 先清空之前的语音，防止冲突
+      window.speechSynthesis.cancel();
+      setTimeout(() => {
+          window.speechSynthesis.speak(utterance);
+      }, 100); // 适当延迟，防止 cancel() 导致播放失败
+  
+      document.getElementById("stop-voice-button").style.display = "inline-block";
+      document.getElementById("speak-button").style.display = "none";
+  
+      utterance.onend = function () {
+          document.getElementById("stop-voice-button").style.display = "none";
+          document.getElementById("speak-button").style.display = "inline-block";
+      };
+  
+      utterance.onerror = function (event) {
+          console.error("语音播放发生错误：", event);
+          document.getElementById("stop-voice-button").style.display = "none";
+          document.getElementById("speak-button").style.display = "inline-block";
+      };
+  }
+  
+
+
+
+
+  // 新代码 组合词 分析 ai 回复-------------------------------------------------------------------------------------------------------------------------------
+
+//以上的聊天代码已被移动到其它文件中
+
+
+
+
+
+
+
+
+
+
+
+// 检查关键词组合是否匹配
+function checkKeywordMatch(message) {
+  const lowerMessage = message.toLowerCase(); // 转换为小写以便不区分大小写
+  for (const item of keywordResponses) {
+      const allKeywordsPresent = item.keywords.every(keyword => lowerMessage.includes(keyword));
+      if (allKeywordsPresent) {
+          return item.responses[Math.floor(Math.random() * item.responses.length)]; // 随机选择一个回复
+      }
+  }
+  return null; // 如果不匹配，返回 null
+}
+
+// 解决重复发送问题
+let sendMessageCalled = false; // 防止重复调用
+
+function sendMessage() {
+  if (isTyping || sendMessageCalled) return; // 如果 AI 正在回复或已发送消息，则直接返回
+  sendMessageCalled = true; // 标记已调用
+
+  setTimeout(() => { sendMessageCalled = false; }, 500); // 500ms 后允许重新发送
+
+  const message = userInput.value.trim();
+  if (message === "") return;
+
+  addMessage("你", message, "user-message");
+
+  // **优先检查关键词匹配**
+  const keywordResponse = checkKeywordMatch(message);
+  if (keywordResponse) {
+      typeMessage("火狮助手", keywordResponse, "ai-message");
+  } else if (isMathExpression(message)) {
+      // **如果关键词匹配失败，再检查是否为数学表达式**
+      const result = calculateMath(message);
+      typeMessage("火狮助手", result.toString(), "ai-message");
+  } else {
+      // **如果都不是，使用默认的关键词回复**
+      let response = getResponse(message);
+      typeMessage("火狮助手", response, "ai-message");
+  }
+
+  userInput.value = ""; // 清空输入框
+}
+
+
+
+   // 改进后的 isMathExpression 函数_____________________________________________________________________________________________________
+// 检查是否为数学表达式
+
+function isMathExpression(message) {
+  message = message.trim();
+  return /[+\-*/^()=]/.test(message) || /加|减|乘|除|÷|×|·|%/.test(message);
+}
+
+//数学
+
+function calculateMath(expression) {
+  try {
+      // 清理表达式，替换中文符号
+      let cleanedExpression = expression
+          .replace(/加/g, '+')
+          .replace(/减/g, '-')
+          .replace(/乘/g, '*')
+          .replace(/除/g, '/')
+          .replace(/÷/g, '/')
+          .replace(/×/g, '*')
+          .replace(/·/g, '*');
+
+      // 处理"数字 ± 百分比" 例如 100 + 50% 变为 100 + (100 * 50 / 100)
+      cleanedExpression = cleanedExpression.replace(/(\d+)\s*([\+\-])\s*(\d+)%/g, (match, num, operator, percent) => {
+          return `${num} ${operator} (${num} * ${percent} / 100)`;
+      });
+
+      // 处理"数字 * 或 / 百分比" 例如 100 * 50% 变为 100 * (50 / 100)
+      cleanedExpression = cleanedExpression.replace(/(\d+)\s*([\*/])\s*(\d+)%/g, (match, num, operator, percent) => {
+          return `${num} ${operator} (${percent} / 100)`;
+      });
+
+      // 确保表达式只包含数字、运算符、小数点和括号
+      cleanedExpression = cleanedExpression.replace(/[^0-9+\-*/().]/g, '');
+
+      // 计算表达式
+      const result = eval(cleanedExpression);
+      return result;
+  } catch (error) {
+      return "抱歉，这个数学表达式无法计算，请确保表达式正确且只包含数字和运算符。";
+  }
+}
+
+
+
+
+// 搜索功能 
+
+let searchEnabled = false; // 是否启用搜索模式
+let searchFrame = null; // 用于存储搜索窗口
+
+function sendMessage() {
+    if (isTyping || sendMessageCalled) return;
+    sendMessageCalled = true;
+    setTimeout(() => { sendMessageCalled = false; }, 500);
+
+    const message = userInput.value.trim();
+    if (message === "") return;
+
+    addMessage("你", message, "user-message");
+
+    // 开启搜索功能
+    if (message === "开启搜索功能") {
+        searchEnabled = true;
+        typeMessage("火狮助手", "搜索功能已开启，请输入搜索内容。 ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴  ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴ ￴ ￴  ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴ ￴ ￴  ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴ ￴ ￴  ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴ ￴ ￴  ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴ ￴ ￴  ￴￴ ￴ ￴￴ ￴ ￴ ￴￴￴ ￴￴ ￴ ￴￴ ￴ ￴ ￴ ￴ 提示：如果您要关闭搜索功能可以直接输入 关闭搜索功能", "ai-message");
+        userInput.value = "";
+        return;
+    }
+
+    // 关闭搜索功能
+    if (message === "关闭搜索功能") {
+        searchEnabled = false;
+        if (searchFrame) {
+            searchFrame.remove(); // 移除嵌入的 Bing 结果
+            searchFrame = null;
+        }
+        typeMessage("火狮助手", "搜索功能已关闭，恢复聊天模式。", "ai-message");
+        userInput.value = "";
+        return;
+    }
+
+    // 在搜索模式下进行搜索
+    if (searchEnabled) {
+        typeMessage("火狮助手", "正在搜索，请稍候...  以下是搜索结果", "ai-message");
+
+        // 删除之前的搜索窗口
+        if (searchFrame) {
+            searchFrame.remove();
+        }
+
+        // 创建一个 iframe 作为搜索窗口
+        searchFrame = document.createElement("iframe");
+        searchFrame.src = `https://www.bing.com/search?q=${encodeURIComponent(message)}`;
+        searchFrame.style.width = "100%";
+        searchFrame.style.height = "400px";
+        searchFrame.style.border = "none";
+        searchFrame.style.borderRadius = "8px";
+        searchFrame.style.marginTop = "10px";
+        searchFrame.style.paddingTop = "50px"; // 增加上方间距
+
+
+        // 等待 AI 回复完成后插入 iframe
+        setTimeout(() => {
+            chatBox.appendChild(searchFrame);
+            scrollToBottom(); // 滚动到底部
+        }, 1000);
+
+        userInput.value = "";
+        return;
+    }
+
+    // **其他正常聊天逻辑**
+    const keywordResponse = checkKeywordMatch(message);
+    if (keywordResponse) {
+        typeMessage("火狮助手", keywordResponse, "ai-message");
+    } else if (isMathExpression(message)) {
+        const result = calculateMath(message);
+        typeMessage("火狮助手", result.toString(), "ai-message");
+    } else {
+        let response = getResponse(message);
+        typeMessage("火狮助手", response, "ai-message");
+    }
+
+    userInput.value = "";
+}
+
+
+
+
+// 按钮搜索回复
+
+function toggleButtons() {
+  const buttonContainer = document.getElementById("button-container");
+  const toggleButton = document.getElementById("toggle-button");
+
+  if (buttonContainer.classList.contains("hidden")) {
+      buttonContainer.classList.remove("hidden");
+      toggleButton.textContent = "隐藏内容";
+  } else {
+      buttonContainer.classList.add("hidden");
+      toggleButton.textContent = "显示内容";
+  }
+}
+
+
+
+// 录音
+
+// voiceInput.js
+
+// 语音输入相关变量
+let recognition;
+let isVoiceInputActive = false;
+
+// 启动语音输入
+function startVoiceInput() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+        alert("当前浏览器不支持语音输入功能，请使用支持Web Speech API的浏览器（如Chrome）。");
+        return;
+    }
+
+    recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+    recognition.lang = "zh-CN"; // 设置语言为中文
+    recognition.interimResults = false; // 不显示中间结果
+    recognition.maxAlternatives = 1; // 最多返回一个结果
+
+    recognition.onresult = function(event) {
+        const transcript = event.results[0][0].transcript; // 获取语音识别结果
+        document.getElementById("user-input").value = transcript; // 将结果填入输入框
+        stopVoiceInput(); // 停止录音
+        sendMessage(); // 自动发送消息
+    };
+
+    recognition.onerror = function(event) {
+        console.error("语音识别错误：", event.error);
+        stopVoiceInput(); // 出错时停止录音
+    };
+
+    recognition.start(); // 开始语音识别
+    isVoiceInputActive = true;
+    document.getElementById("huoshisoundaudio-button").style.display = "none";
+    document.getElementById("huoshisoundaudio-stop-button").style.display = "inline-block";
+}
+
+// 停止语音输入
+function stopVoiceInput() {
+    if (recognition) {
+        recognition.stop(); // 停止语音识别
+    }
+    isVoiceInputActive = false;
+    document.getElementById("huoshisoundaudio-button").style.display = "inline-block";
+    document.getElementById("huoshisoundaudio-stop-button").style.display = "none";
+}
+
+// 切换语音输入状态
+function toggleVoiceInput() {
+    if (isVoiceInputActive) {
+        stopVoiceInput();
+    } else {
+        startVoiceInput();
+    }
+}
+
+
+
+// genshin 原神
+
+// 时间
+
+function updateTime() {
+    const now = new Date();
+    const timeElement = document.getElementById('huoshitimeshijian-time-text');
+    const dateElement = document.getElementById('huoshitimeshijian-date-text');
+    
+    const timeString = now.toLocaleTimeString('en-US', {
+        hour12: false,
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    }).replace(/:/g, '<span class="colon">:</span>');
+    
+    const dateString = now.toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    }).toUpperCase();
+
+    timeElement.innerHTML = timeString;
+    dateElement.textContent = dateString;
+}
+
+// 初始化
+setInterval(updateTime, 1000);
+updateTime();
