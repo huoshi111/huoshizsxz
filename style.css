@@ -1,0 +1,487 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #030303b6;
+            overflow: hidden; /* 禁止页面滚动 */
+            -webkit-overflow-scrolling: touch; /* 让滚动更顺滑 */
+            background-image: url(https://raw.githubusercontent.com/huoshi111/huoshiyinyuebizhi2/main/huoshiyinyuebizhi2.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            cursor: url('https://i.ibb.co/27ktrWvb/icon11.png'), auto;
+        }
+
+
+    a, button, input, select, textarea, .music-button, label, #audio-controls button {
+        cursor: url('https://i.ibb.co/27ktrWvb/icon11.png'), auto !important;
+    }
+
+    a:hover, a:focus, button:hover, button:focus, input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus, .music-button:hover, .music-button:focus, label:hover, label:focus, #audio-controls button:hover, #audio-controls button:focus {
+        cursor: url('https://i.ibb.co/27ktrWvb/icon11.png'), auto !important;
+    }
+        .chat-container {
+            width: 90%;
+            max-width: 1000px;
+            background: rgba(0, 0, 0, 0.679);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 80vh; /* 固定高度 */
+        }
+        /*聊天窗口滚动条设置*/
+
+
+
+        /*聊天窗口滚动条设置结束*/
+        .chat-box {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto; /* 添加独立滚动条 */
+            display: flex;
+            flex-direction: column;
+            scrollbar-width: thin; /* 兼容 Firefox */
+            scrollbar-color: #888 #f4f4f4;
+        }
+        .chat-box::-webkit-scrollbar {
+            border-radius: 50px;
+            background-color: grey;
+            width: 6px; /* 滚动条宽度 */
+        }
+        .chat-box::-webkit-scrollbar-track {
+            background: #c5c5c5;
+        }
+        .chat-box::-webkit-scrollbar-thumb {
+            background: #6c6c6c;
+            border-radius: 10px;
+        }
+        
+
+
+        .chat-box p {
+            margin: 5px 0;
+            padding: 8px 12px;
+            border-radius: 5px;
+            max-width: 70%;
+            word-wrap: break-word;
+            display: inline-block;
+        }
+        .user-message {
+            border: 2px solid rgba(0, 255, 255, 0.252); /* 添加科技感边框 */
+            background: #000000b4;
+            color: rgba(27, 197, 223, 0.756);
+            text-align: left;
+            align-self: flex-end;
+        }
+        .ai-message {
+            border: 2px solid rgba(0, 229, 255, 0.332); /* 添加科技感边框 */
+            background: #00000050;
+            color: rgba(27, 204, 223, 0.63);
+            text-align: left;
+            align-self: flex-start;
+        }
+        .typing-dot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-color: transparent; /* 设置为透明背景 */
+    border-radius: 50%;
+    animation: scaleAnimation 1.2s infinite;
+    color: #999999; /* 设置符号颜色为绿色 */
+    font-size: 20px; /* 设置符号大小 */
+    line-height: 20px; /* 调整行高以对齐 */
+    text-align: center; /* 居中对齐符号 */
+}
+
+@keyframes scaleAnimation {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+}
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px;
+            padding: 5px;
+            border: 2px solid rgba(0, 234, 255, 0.193); /* 添加科技感边框 */
+            border-radius: 10px;
+            background: #0000005d;
+            transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out; 
+            max-height: 300px; /* 初始最大高度 */
+            overflow-y: auto; /* 允许垂直滚动 */
+        }
+
+        /*按钮内容的滚动条设置*/
+
+        .button-container::-webkit-scrollbar {
+            width: 8px; /* 滚动条宽度 */
+            background-color: rgba(121, 121, 121, 0.566);
+            border-radius: 10px; /* 给滚动条本身加圆角 */
+          }
+
+          /* 滚动条轨道 */
+.button-container::-webkit-scrollbar-track {
+    background: #c5c5c5; /* 轨道背景色 */
+    border-radius: 10px; /* 轨道圆角 */
+  }
+  
+  /* 滚动条滑块（可拖动的部分） */
+  .button-container::-webkit-scrollbar-thumb {
+    background: #4e4e4e; /* 滑块颜色（这里是橙红色） */
+    border-radius: 10px; /* 滑块圆角 */
+  }
+  
+  /* 滑块在悬停时的颜色 */
+  .button-container::-webkit-scrollbar-thumb:hover {
+    background: #909090; /* 深一点的橙色 */
+  }
+
+
+/*滚动条设置结束*/
+
+        .button-container.hidden {
+            opacity: 0;
+            max-height: 0; /* 收缩高度 */
+            pointer-events: none; /* 防止按钮仍然可点击 */
+        }
+
+        .button-container button {
+            padding: 6px 12px;
+            background: #28282881;
+            color: rgba(13, 191, 222, 0.753);   
+            border: 1px solid rgba(0, 234, 255, 0.308); /* 添加科技感边框 */
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        .button-container button:hover {
+            color: #00daf2de;
+            box-shadow: 0 10px 20px rgba(92, 92, 92, 0.634);
+        }
+        .input-container {
+            display: flex;
+            border-top: 1px solid #000000a1;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.347);
+            border-radius: 10px;
+        }
+        input {
+            flex: 1;
+            padding: 8px;
+            color: rgba(24, 213, 237, 0.759); /* 修改占位符的颜色 搜索框字母颜色 */ 
+            border: 1px solid #04eac456;
+            background-color: #24242489;
+            border-radius: 10px;
+            outline: none;
+            max-width: 600px;
+        }
+
+        input::placeholder {
+            color: rgba(0, 217, 255, 0.626); /* 修改占位符的颜色 字母颜色 */ 
+          }
+
+
+        button {
+            margin-left: 10px;
+            padding: 8px 12px;
+            background: #1e1e1eb5;
+            color: rgba(0, 236, 240, 0.638);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #16161669;
+        }
+        h1 {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #00000079; /* 背景色让它更明显 */
+            color: #0fc1dcb7;
+            padding: 4px 0;
+            margin: 0;
+            font-size: 16px;
+        }
+/* 录音*/
+#huoshisoundaudio-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #1e1e1eb5; 
+    color: rgba(17, 217, 239, 0.575);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#huoshisoundaudio-button:hover {
+    background: #494949cb;
+}
+
+#huoshisoundaudio-stop-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background: #565656ea;
+    color: rgba(11, 239, 227, 0.54);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#huoshisoundaudio-stop-button:hover {
+    background: #11111167;
+}
+
+/*iframe 设置*/
+
+        /* 遮罩层（半透明背景） */
+        .huoshiaic-yuanshen-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        /* iframe 容器，初始状态缩小 */
+        .huoshiaic-yuanshen-iframe-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%) scale(0.8);
+            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+            opacity: 0;
+            z-index: 1001;
+        }
+
+        /* iframe */
+        .huoshiaic-yuanshen-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+
+        /* 关闭按钮 */
+        .huoshiaic-yuanshen-close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+            z-index: 1002;
+        }
+
+        /* 显示 iframe 时的动画 */
+        .huoshiaic-yuanshen-overlay.active {
+            display: block;
+            opacity: 1;
+        }
+
+        .huoshiaic-yuanshen-iframe-container.active {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+
+        /*设置按钮内容*/
+
+                 /* 模态框背景 */
+                 #unique-modal-overlay-id1 {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 2000;
+                }
+        
+                /* 模态框主体 */
+                #unique-modal-id1 {
+                    background-color: #000000dd;
+                    width: 90%;
+                    max-width: 700px;
+                    height: 70%;
+                    border-radius: 10px;
+                    padding: 0;
+                    display: flex;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                }
+        
+                /* 分类按钮（左侧菜单） */
+                .category-buttons1 {
+                    background-color: #191919aa;
+                    display: flex;
+                    flex-direction: column;
+                    width: 150px;
+                    padding: 10px;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+        
+                .category-buttons1 button {
+                    background-color: #282828a5;
+                    color: #bebebe;
+                    border: none;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    text-align: left;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    transition: all 0.3s ease; /* 平滑过渡 */
+                    transform-origin: center;
+                    height: 40px;
+                    width: 120px;
+                }
+        
+                /* 悬停效果 */
+                .category-buttons1 button:hover {
+                    background-color: #4747478c;
+                    transform: scale(1.05); /* 放大 */
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+                }
+        
+                /* 点击效果 */
+                .category-buttons1 button:active {
+                    transform: scale(0.95); /* 点击时缩小 */
+                }
+        
+                /* 激活状态 */
+                .category-buttons1 button.active {
+                    background-color: #39393972;
+                    color: #848484;
+                    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2); /* 内部阴影 */
+                }
+        
+                /* 内容区域 */
+                .content-area1 {
+                    flex-grow: 1;
+                    padding: 20px;
+                    overflow-y: auto;
+                    scrollbar-width: none; /* 隐藏 Firefox 的滚动条（仅美观，无实际效果） */
+                }
+        
+                .content-area1 .content1 {
+                    display: none;
+                }
+        
+                .content-area1 .content1.active {
+                    display: block;
+                }
+        
+                /* 关闭按钮 */
+                #unique-close-button-id1 {
+                    background-color: transparent;
+                    color: #fff;
+                    border: none;
+                    font-size: 24px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                }
+        
+                /* 打开模态框的按钮 */
+                #unique-question-button-id1 {
+                    background-color: #00000092;
+                    color: rgba(23, 208, 236, 0.749);
+                    border: 1px solid #00f2ff58; /* 添加科技感边框 */
+                    border-radius: 30%;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                }
+        
+                #unique-question-button-id1:hover {
+                    box-shadow: 0 4px 15px rgba(66, 195, 234, 0.619);
+                    background-color: #27272761;
+                    transform: scale(1.1);
+                }
+        
+                #unique-question-button-id1:active {
+                    transform: scale(0.9);
+                }
+
+                /* 添加以下样式 */
+iframe {
+    height: 80vh !important; /* 占据80%视口高度 */
+    max-height: 100%;       /* 最大高度限制 */
+    min-height: 100%;       /* 最小高度保证 */
+    border-radius: 12px;     /* 更圆润的边框 */
+    background-color: rgba(22, 22, 22, 0.704);
+}
+
+
+/*时间*/
+#huoshitimeshijian-container {
+    position: relative;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(5, 5, 30, 0.571);
+    box-shadow: 0 0 30px rgba(0, 150, 255, 0.3);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    width: 60%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#huoshitimeshijian-time-container {
+    position: relative;
+    text-align: center;
+    perspective: 1000px;
+    width: 100%;
+}
+
+#huoshitimeshijian-time-text {
+    font-size: 4vw;
+    color: #00ffead8;
+    text-shadow: 0 0 15px rgba(0, 255, 234, 0.5),
+                 0 0 30px rgba(0, 255, 234, 0.3),
+                 0 0 45px rgba(0, 255, 234, 0.2);
+    letter-spacing: 0.1em;
+    animation: glow 2s ease-in-out infinite alternate;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+#huoshitimeshijian-date-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2vw;
+    color: #6e6ed5cb;
+    margin-top: 1rem;
+    text-shadow: 0 0 10px rgba(125, 125, 255, 0.3);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}

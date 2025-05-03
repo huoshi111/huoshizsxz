@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="火狮桃星">
+    <meta name="description" content="火狮智能助手 火狮 HUOSHI">
+    <link rel="icon" type="image/x-icon" href="https://github.com/huoshi111/huoshiicon/blob/main/%E7%81%AB%E7%8B%AEHuoShi%20logo.png?raw=true">
+    <link rel="stylesheet" href="style.css">
+    <title>火狮助手</title>
+</head>
+<!--
+██╗  ██╗██╗   ██╗ ██████╗ ███████╗██╗  ██╗██╗
+██║  ██║██║   ██║██╔═══██╗██╔════╝██║  ██║██║
+███████║██║   ██║██║   ██║███████╗███████║██║
+██╔══██║██║   ██║██║   ██║╚════██║██╔══██║██║
+██║  ██║╚██████╔╝╚██████╔╝███████║██║  ██║██║
+╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝
+-->
+<body>
+<h1 style="color: #00c8f5b9;"> <button id="unique-question-button-id1">✦</button> 火狮助手</h1> 
+<br><br>
+<div class="chat-container">
+    <div class="chat-box" id="chat-box">
+        <p class="ai-message"><b>火狮助手：</b> 有什么可以帮忙的吗？您也可以点击左上角的小星星按钮设置，进入后点击第三个按钮选项，  里面有更多功能哦~ ヾ(^▽^*)</p>
+    </div>
+
+
+    <!-- 快捷按钮 -->
+    <center>
+        <button style="color: #03bce5bf; background-color: rgba(22, 22, 22, 0.288); width: 370px; border-radius: 10px; border: 1px solid rgba(6, 188, 220, 0.266); " id="toggle-button" onclick="toggleButtons()">隐藏内容</button>
+    </center>
+    <div class="button-container" id="button-container">
+        <h style="color: rgba(0, 197, 241, 0.758);">您可能对这些话题感兴趣: </h>
+        <button style="background-color: #1d1d1d8d; color: rgba(236, 183, 7, 0.751);" onclick="quickReply(this, '开启搜索功能')">搜索功能</button>
+        <button onclick="quickReply(this, '介绍一下你自己')">介绍</button>
+        <button onclick="quickReply(this, '火狮有哪些作品')">火狮的作品</button>
+        <button onclick="quickReply(this, '火狮桃星的宇宙星空的网页')">桃星 宇宙星空</button>
+        <button onclick="quickReply(this, '你能绘制画作吗')">生成画作</button>
+        <button onclick="quickReply(this, '猜原神的角色新功能')">玩猜原神角色</button>
+        <button onclick="quickReply(this, '抖音很火的歌有哪些')">抖音很火的歌</button>
+        <button onclick="quickReply(this, '抖音很好听的纯音乐有哪些')">抖音好听的纯音乐</button>
+        <button onclick="quickReply(this, '我需要帮助')">帮助</button>
+        <button onclick="quickReply(this, '背诗')">背诗</button>
+        <button onclick="quickReply(this, '设置按钮里面有什么')">设置</button>
+        <button onclick="quickReply(this, '有评论区吗?')">评论区</button>
+        <button onclick="quickReply(this, '如何反击网络上的键盘侠')">反击键盘侠</button> 
+        <button onclick="quickReply(this, '如何让攻击者破防')">让攻击者破防</button>
+        <button onclick="quickReply(this, '讲一下宇宙的起源')">关于宇宙的起源</button>
+        <button onclick="quickReply(this, '抖音的梗')">抖音很火的梗</button>
+        <button onclick="quickReply(this, '讲解一下世界的历史')">关于世界的历史</button>
+        <button onclick="quickReply(this, '我需要联系开发者')">联系</button>
+    </div>
+
+    <div class="input-container">
+        <input type="text" id="user-input" placeholder="请输入...">
+        <button onclick="sendMessage()">➤  </button>
+        <center>
+        <button id="huoshisoundaudio-button" onclick="toggleVoiceInput()">🎤</button>
+        <button id="huoshisoundaudio-stop-button" onclick="stopVoiceInput()" style="display: none;">停止录音</button>
+        <button id="speak-button" onclick="speakMessage()">语音</button>
+        <button id="stop-voice-button" onclick="stopSpeaking()" style="display: none;">语音阅读中</button>
+    </center>
+    </div>
+
+
+    <center>
+        <p style="color: #02ddf586;">火狮 桃星 HUOSHI © 2025 - 火狮 智能助手 v.1.0 </p>
+
+    </center>
+</div>
+
+<!--设置内容-->
+
+<div id="unique-modal-overlay-id1">
+    <div id="unique-modal-id1">
+        <div class="category-buttons1">
+            <button class="category-btn1 active" data-target="content11">火狮 智能助手</button>
+            <button class="category-btn1" data-target="content21">介绍</button>
+            <button class="category-btn1" data-target="content31">功能</button>
+            <button class="category-btn1" data-target="content41">更新内容</button>
+            <button class="category-btn1" data-target="content51">时间</button>
+        </div>
+
+
+        <div class="content-area1">
+            <button id="unique-close-button-id1">&times;</button>
+
+
+<!--网站介绍-->
+            <div id="content11" class="content1 active">
+                <br><br>
+                <center>
+                   <b style="color: rgb(210, 210, 210);">欢迎访问 火狮智能助手 网页</b>
+                </center>
+                <br>
+                <h style="color: #b4b4b4;">- 有什么需要我帮您的吗？<br><br> - 在这里您可以和我问很多问题，我可以用一些资料为您讲解。</h>
+                <br><br><br><br>
+                <a href="火狮助手官网.html" style="text-decoration: none;">
+                    <button style="background-color: rgba(69, 69, 69, 0.327); color: #05c0efbb; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">
+                        进入 火狮助手 官网
+                    </button>
+                </a>
+                <br><br><br><br><br>
+                <p style="color: #b4b4b4;">火狮 智能助手 v.1.0 版本 1.0 </p>
+                <br><br>
+                <p style="color: #b3b3b3;">© 2025 火狮桃星 HUOSHI. 保留所有权利。</p>
+                <p style="color: #b3b3b3;">未经许可，不得复制、转载或用于商业用途。</p>
+            </div>
+<!--安全说明-->
+
+            <div id="content21" class="content1">
+<br><br>
+<center>
+    <b style="color: #b4b4b4;"> 您可以和 火狮智能助手 聊一些简单的话题，科普和解决一些基础数学题。</b>
+</center>
+<br>
+<h2 style="color: #b4b4b4;">- 欢迎来到 火狮智能助手 官方网站！</h2>
+<p style="color: #b4b4b4;">- 在这里，您将发现丰富多彩的内容与智慧交融的体验。</p>
+<p style="color: #b4b4b4;">- 无论是休闲娱乐、听音乐、查找资料，还是获取专业帮助，火狮智能助手都能满足您的需求。</p>
+<p style="color: #b4b4b4;">- 如有任何问题或需要帮助，请随时联系我们，我们始终在您身边！</p>
+<a href="https://www.douyin.com/video/7468697566935305508" style="text-decoration: none;">
+    <button style="background-color: rgba(50, 50, 50, 0.838); color: #b3b3b3; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">
+        开发者 抖音 火狮 桃星 HUOSHI
+    </button>
+</a>
+
+    <br><br>
+    <!-- 标题 -->
+<h2 style="color: #b4b4b4;">关于火狮桃星（HUOSHI）</h2>
+
+<!-- 普通段落 -->
+<p style="color: #b4b4b4;">火狮桃星（HUOSHI）是一个致力于创新与社交互动的平台，提供丰富的内容体验与多样化的服务。</p>
+
+<!-- 列表 -->
+<ul style="color: #b4b4b4;">
+    <li>提供高质量内容创作与分享</li>
+    <li>维护用户隐私与数据安全</li>
+    <li>支持多种互动方式，增强用户体验</li>
+</ul>
+
+<!-- 分隔线 -->
+<hr style="border-color: #b4b4b4;">
+
+<!-- 法律声明 -->
+<h3 style="color: #b4b4b4;">法律与政策</h3>
+<p style="color: #b4b4b4;">使用火狮桃星平台即表示您同意我们的用户协议和隐私政策。</p>
+
+<!-- 重要内容加粗 -->
+<p style="color: #b4b4b4;"><strong>隐私保护：</strong> 我们承诺保护用户数据，不会擅自共享您的个人信息。</p>
+
+<!-- 链接 -->
+<p style="color: #b4b4b4;">详情请查看<a href="https://huoshi111.github.io/huoshiuserprivacy01/%E7%81%AB%E7%8B%AE%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.html" style="color: #b4b4b4; text-decoration: underline;"> 用户协议</a> 和 <a href="https://huoshi111.github.io/huoshiuserprivacy01/%E7%81%AB%E7%8B%AE%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.html" style="color: #b4b4b4; text-decoration: underline;">隐私政策</a></p> 
+
+
+
+
+            </div>
+
+
+            <div id="content31" class="content1">
+                <center>
+                    <b style="color: #b4b4b4;"> 目前现在有 猜 原神角色的功能 您可以点击这里玩一下。</b>
+                </center>
+                <br><br>
+
+            <br><br>
+                <b style="color: #b4b4b4;">来自 火狮 桃星 HUOSHI 火狮智能助手 功能 和 作品</b>
+            <br><br>
+            <p style="color: #b4b4b4;">火狮智能助手 功能</p>
+    <button id="huoshiaicYuanshenOpenButton1"> 猜 原神角色</button>
+    <button id="huoshiaicYuanshenOpenButton8"> 绘画 生成图</button>
+    <button id="huoshiaicYuanshenOpenButton9"> 图片变动漫图</button>
+    <br><br>
+    <p style="color: #b4b4b4;">火狮智能助手 游戏</p>
+    <button id="huoshiaicYuanshenOpenButton2"> 迷宫大冒险 游戏</button>
+    <button id="huoshiaicYuanshenOpenButton3">井字棋 游戏</button>
+    <br><br>
+    <p style="color: #b4b4b4;">火狮 桃星 HUOSHI 作品</p>
+    <button id="huoshiaicYuanshenOpenButton4">火狮 音乐</button>
+    <button id="huoshiaicYuanshenOpenButton5">火狮 壁纸 国际版</button>
+    <button id="huoshiaicYuanshenOpenButton7">桃星 宇宙星空</button>
+    <br><br><br><br>
+    <b style="color: #b4b4b4;">来自 哔哩哔哩 游戏</b>
+    <br><br>
+    <button id="huoshiaicYuanshenOpenButton6">原神抽卡模拟器</button>
+<!--功能按钮-->
+
+<div class="huoshiaic-yuanshen-overlay" id="huoshiaicYuanshenOverlay">
+    <div class="huoshiaic-yuanshen-iframe-container" id="huoshiaicYuanshenIframeContainer">
+        <iframe allow="microphone; fullscreen" id="huoshiaicYuanshenIframe" class="huoshiaic-yuanshen-iframe" src=""></iframe>
+        <span class="huoshiaic-yuanshen-close-button" id="huoshiaicYuanshenCloseButton">×</span>
+    </div>
+</div>
+<!--功能按钮结束-->
+
+            </div>
+
+            <div id="content41" class="content1">
+
+                <br><br>
+<b style="color: #b4b4b4;">火狮智能助手 v.1.0 更新内容 如下</b>
+<br><br><br><br><br><br>
+<p style="color: rgba(14, 215, 255, 0.788);">我们对网站进行了重大优化，带来了全新体验：</p>
+<br><br><br>
+<ul>
+    <li style="color: rgba(14, 215, 255, 0.788);">添加更高级的页面，提升用户体验</li>
+    <li style="color: rgba(14, 215, 255, 0.788);">优化颜色与背景，使界面更美观</li>
+    <li style="color: rgba(14, 215, 255, 0.788);">新增背景图片，让整体视觉体验更佳</li>
+</ul>
+<br>
+<h2 style="color: rgba(14, 215, 255, 0.788);">✨ 新功能上线 ✨</h2>
+<br>
+<ul>
+    <li style="color: rgba(14, 215, 255, 0.788);">🖌️ <strong>AI 生成图片绘画</strong> - 输入关键词，生成专属图片</li>
+    <li style="color: rgba(14, 215, 255, 0.788);">🎨 <strong>图片变动漫图</strong> - 一键将图片转换为动漫风格</li>
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+    <b style="color: #b4b4b4;">火狮智能助手 火狮 桃星 HUOSHI  © 2025</b>
+</center>
+            </div>、
+
+            <div id="content51" class="content1">
+                <br><br>
+
+                <h2 style="color: rgba(0, 217, 255, 0.852);">您现在的时间</h2>
+                <br><br><br><br><br><br><br>
+
+                <div class="background-effect"></div>
+                <div id="huoshitimeshijian-container">
+                    <div id="huoshitimeshijian-time-container">
+                        <div id="huoshitimeshijian-time-text"></div>
+                        <div id="huoshitimeshijian-date-text"></div>
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <center>
+                    <b style="color: #b4b4b4;">火狮智能助手 火狮 桃星 HUOSHI  © 2025</b>
+                </center>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--
+ ___  ___  ___  ___  ________  ________  ___  ___  ___     
+|\  \|\  \|\  \|\  \|\   __  \|\   ____\|\  \|\  \|\  \    
+\ \  \\\  \ \  \\\  \ \  \|\  \ \  \___|\ \  \\\  \ \  \   
+ \ \   __  \ \  \\\  \ \  \\\  \ \_____  \ \   __  \ \  \  
+  \ \  \ \  \ \  \\\  \ \  \\\  \|____|\  \ \  \ \  \ \  \ 
+   \ \__\ \__\ \_______\ \_______\____\_\  \ \__\ \__\ \__\
+    \|__|\|__|\|_______|\|_______|\_________\|__|\|__|\|__|
+                                 \|_________|              
+                                                                                                                  
+-->
+
+
+<script src="huoshiailang.js"></script>
+<script src="script.js"></script>
+<script src="huoshilangint.js"></script>
+
+<!--猜角色功能-->
+<script src="1huoshiiframeyuanshen.js"></script>
+<!--左上角的设置按钮-->
+<script src="contenttypehuoshiai设置内容.js"></script>
+
+
+
+
+
+</body>
+</html>
